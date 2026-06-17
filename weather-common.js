@@ -1,8 +1,4 @@
-/* NerdsIndia — shared weather + header logic for every page.
-   Pages must include a <div id="headerMount"></div> right at the top of .page,
-   and call niInitHeader(onRefresh) before building their own cards. */
 
-// ---------- weather code -> icon type + label ----------
 function niClassify(code){
   if(code === 0) return { type:'sun',   label:'Clear sky' };
   if(code === 1) return { type:'sun',   label:'Mostly clear' };
