@@ -1,0 +1,30 @@
+<header class="topbar">
+  <div class="brand">
+    <a href="index.html" class="brand-link" aria-label="NerdsIndia home">
+      <h1>NerdsIndia</h1>
+    </a>
+    <p class="tagline">Live weather across every state in India</p>
+  </div>
+  <div class="meta-row">
+    <span class="updated" id="updatedAt">Loading…</span>
+    <button class="icon-btn" id="searchToggle" aria-label="Search" aria-expanded="false" aria-controls="searchRow">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <a class="donate-btn" id="donateBtn" href="https://rzp.io/rzp/Ljrldltg" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21s-7.5-4.6-10-9C.5 8.5 2 4.5 6 4.5c2 0 3.5 1.2 4.5 2.7C11.5 5.7 13 4.5 15 4.5c4 0 5.5 4 4 7.5-2.5 4.4-10 9-10 9z"/></svg>
+      Donate
+    </a>
+    <button class="refresh-btn" id="refreshBtn">Refresh</button>
+    <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="ui-icon-moon" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="ui-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.6" y1="4.6" x2="6.8" y2="6.8"/><line x1="17.2" y1="17.2" x2="19.4" y2="19.4"/><line x1="4.6" y1="19.4" x2="6.8" y2="17.2"/><line x1="17.2" y1="6.8" x2="19.4" y2="4.6"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="search-row" id="searchRow">
+  <div class="search-wrap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input id="searchInput" type="text" placeholder="Search state or city…" autocomplete="off" />
+  </div>
+</div>
