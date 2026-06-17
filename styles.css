@@ -295,11 +295,26 @@
   }
 
   @media (max-width:640px){
-    header.topbar{ flex-direction:column; align-items:stretch; }
+    header.topbar{ flex-direction:column; align-items:stretch; gap:14px; }
     .search-wrap{ max-width:none; }
-    .meta-row{ justify-content:space-between; }
+    .meta-row{
+      flex-wrap:wrap;
+      justify-content:flex-start;
+      gap:8px;
+    }
+    .updated{
+      flex:1 1 100%;
+      white-space:nowrap;
+    }
+    .refresh-btn, .donate-btn{
+      white-space:nowrap;
+      flex-shrink:0;
+      padding:8px 12px;
+    }
+    .icon-btn{ flex-shrink:0; }
   }
 
+  /* ---------- multi-page additions ---------- */
   .brand-link{ text-decoration:none; color:inherit; display:inline-block; transition:opacity .15s ease; }
   .brand-link:hover{ opacity:0.82; }
 
