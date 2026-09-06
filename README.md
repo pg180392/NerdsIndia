@@ -33,3 +33,11 @@ Note: SF Pro Rounded is not guaranteed to be installed on every device. The CSS 
 The homepage Book Now / Start Booking actions now open `book.html`. The booking form creates a client-side ticket ID and prepares a WhatsApp click-to-chat message for Nerds India at +91 70451 55229. The customer reviews the message and taps Send. No WhatsApp API is required for this flow.
 
 Important: ticket generation is currently client-side only; there is no server/database persistence yet. The WhatsApp message is the actual submission to the business.
+
+
+## V8 Brand Assets
+- `assets/logo-full.png` — primary logo/wordmark
+- `assets/logo-mark.png` — website header mark
+- `assets/favicon.png` — browser/app icon
+- `favicon.ico` — legacy favicon
+- Website palette updated to blue + green to match the Nerds India logo.
