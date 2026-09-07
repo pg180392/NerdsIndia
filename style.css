@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root{
   --red:#0876d1;
@@ -17,7 +18,7 @@ body{
   margin:0;
   color:var(--ink);
   background:#fff;
-  font-family:"SF Pro Rounded","SF Rounded","Arial Rounded MT Bold","Avenir Next",Avenir,ui-rounded,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
   line-height:1.5;
@@ -138,7 +139,7 @@ nav a.active:after{content:"";position:absolute;bottom:16px;left:0;right:0;heigh
 .booking-heading small{display:block;color:var(--red);font-size:9px;font-weight:800;letter-spacing:.14em;margin-bottom:5px}
 .booking-heading h2{font-size:29px;letter-spacing:-.05em;margin:0}
 .booking-heading>span{font-size:9px;font-weight:750;color:var(--red);background:#e8f7ef;border-radius:99px;padding:7px 9px;white-space:nowrap}
-.booking-card>p{font-size:13px;color:#77777f;margin:11px 0 23px}
+.booking-card>p{font-size:13px;color:#202833;margin:11px 0 23px}
 .booking-card label{font-size:12px;font-weight:750;display:block;margin-bottom:8px}
 .select-box{position:relative}
 .select-box:after{content:"⌄";position:absolute;right:17px;top:50%;transform:translateY(-55%);color:var(--red);pointer-events:none}
@@ -146,7 +147,7 @@ select{
   appearance:none;width:100%;height:52px;border:1px solid rgba(20,20,25,.13);
   background:#fff;border-radius:15px;padding:0 40px 0 15px;color:#292930;outline:0;font-size:13px;
 }
-select:focus{border-color:rgba(135,26,54,.45);box-shadow:0 0 0 4px rgba(135,26,54,.06)}
+select:focus{border-color:rgba(8,118,209,.45);box-shadow:0 0 0 4px rgba(8,118,209,.06)}
 .book-btn{
   width:100%;height:53px;border:0;border-radius:15px;margin-top:11px;
   background:linear-gradient(110deg,var(--red),#18b86a);color:#fff;
@@ -183,15 +184,15 @@ select:focus{border-color:rgba(135,26,54,.45);box-shadow:0 0 0 4px rgba(135,26,5
 .service-card:after{
   content:"";position:absolute;width:100px;height:100px;right:-55px;top:-55px;border-radius:50%;background:#e8f7ef
 }
-.service-card:hover{transform:translateY(-4px);box-shadow:0 17px 38px rgba(7,63,115,.08);border-color:rgba(135,26,54,.18)}
+.service-card:hover{transform:translateY(-4px);box-shadow:0 17px 38px rgba(7,63,115,.08);border-color:rgba(8,118,209,.18)}
 .service-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:19px}
-.service-head small{font-size:9px;color:#9a9aa1;font-weight:750}
+.service-head small{font-size:9px;color:#303a45;font-weight:750}
 .service-head i{
   width:40px;height:40px;border-radius:13px;background:#e5f2ff;color:var(--red);
   display:grid;place-items:center;font-style:normal;font-weight:800;font-size:16px
 }
 .service-card h3{font-size:16px;line-height:1.15;letter-spacing:-.035em;margin:0 0 10px}
-.service-card p{color:#7c7c84;font-size:11px;line-height:1.55;margin:0}
+.service-card p{color:#202833;font-size:11px;line-height:1.55;margin:0}
 .service-foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;padding-top:18px}
 .service-foot b{color:var(--red);font-size:17px}
 .service-foot a{color:var(--red);font-size:10px;font-weight:750}
@@ -199,14 +200,14 @@ select:focus{border-color:rgba(135,26,54,.45);box-shadow:0 0 0 4px rgba(135,26,5
 /* Process */
 .process{background:#f6fbff;padding:95px 0 100px}
 .process-top{margin-bottom:55px}
-.process-top>p{max-width:390px;color:#77777f;font-size:14px;margin:0 0 6px}
+.process-top>p{max-width:390px;color:#202833;font-size:14px;margin:0 0 6px}
 .steps{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr auto 1fr;align-items:start;gap:13px}
 .step i{
   width:43px;height:43px;border-radius:50%;display:grid;place-items:center;background:#e4f2ff;
   color:var(--red);font-style:normal;font-size:10px;font-weight:800;margin-bottom:14px
 }
 .step b{display:block;font-size:12px;margin-bottom:4px}
-.step span{display:block;color:#85858d;font-size:10px;line-height:1.4}
+.step span{display:block;color:#303a45;font-size:10px;line-height:1.4}
 .step-line{height:1px;background:#b9d9ee;margin-top:21px;width:34px}
 
 /* FAQ */
@@ -218,7 +219,7 @@ select:focus{border-color:rgba(135,26,54,.45);box-shadow:0 0 0 4px rgba(135,26,5
 .faq-list summary{list-style:none;cursor:pointer;font-size:14px;font-weight:650;display:flex;justify-content:space-between;gap:20px}
 .faq-list summary::-webkit-details-marker{display:none}
 .faq-list summary b{font-size:20px;color:var(--red);font-weight:400}
-.faq-list p{font-size:12px;color:#77777f;max-width:650px;margin:12px 0 0}
+.faq-list p{font-size:12px;color:#202833;max-width:650px;margin:12px 0 0}
 
 /* Final CTA */
 .final-cta{position:relative;overflow:hidden;background:linear-gradient(115deg,#063e73,#0876d1 52%,#18a85f);color:white}
@@ -241,7 +242,7 @@ footer{background:#fff}
 .footer-grid h4{font-size:11px;margin:0 0 7px}
 .footer-grid>div>a:not(.brand){font-size:11px;color:#7b7b83}
 .footer-grid>div>a:hover{color:var(--red)}
-.footer-bottom{border-top:1px solid var(--line);padding:17px 0 23px;display:flex;justify-content:space-between;color:#9a9aa1;font-size:9px}
+.footer-bottom{border-top:1px solid var(--line);padding:17px 0 23px;display:flex;justify-content:space-between;color:#303a45;font-size:9px}
 
 /* Mobile */
 @media(max-width:1000px){
@@ -371,12 +372,12 @@ footer{background:#fff}
   overflow:hidden;
   padding:90px 0 72px;
   background:
-    radial-gradient(circle at 82% 10%,rgba(135,26,54,.13),transparent 27%),
+    radial-gradient(circle at 82% 10%,rgba(8,118,209,.13),transparent 27%),
     linear-gradient(120deg,#fff,#f7fbff 60%,#f2fbf6);
 }
 .page-hero:after{
   content:"";position:absolute;width:520px;height:520px;right:-270px;top:-280px;border:1px solid rgba(8,118,209,.12);border-radius:50%;
-  box-shadow:0 0 0 70px rgba(135,26,54,.025);
+  box-shadow:0 0 0 70px rgba(24,184,106,.025);
 }
 .page-hero .container{position:relative;z-index:2}
 .page-hero h1{
@@ -474,7 +475,7 @@ button,
 select,
 input,
 textarea{
-  font-family:"SF Pro Rounded","SF Rounded","Arial Rounded MT Bold","Avenir Next",Avenir,ui-rounded,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 }
 
 .btn,
@@ -505,4 +506,582 @@ textarea{
   .final-inner>a{
     min-height:52px;
   }
+}
+
+/* =========================================================
+   V8.2 TYPOGRAPHY ALIGNMENT — MOBILE READABILITY
+   Consistent type scale, spacing and line-height
+   ========================================================= */
+:root{
+  --font-ui:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --text-body:16px;
+  --text-small:13px;
+  --text-xs:12px;
+}
+
+html{font-size:16px;-webkit-text-size-adjust:100%;}
+body{font-family:var(--font-ui);font-size:var(--text-body);line-height:1.6;color:var(--ink);}
+button,input,select,textarea{font-family:var(--font-ui);}
+
+/* Navigation */
+nav a{font-size:14px;line-height:1.3;}
+.top-book{font-size:13px;}
+
+/* Hero */
+.eyebrow{font-size:11px;line-height:1.3;}
+.hero-copy>p{font-size:18px;line-height:1.65;}
+.btn{font-size:14px;line-height:1.2;}
+.trust b{font-size:12px;line-height:1.35;}
+.trust small{font-size:11px;line-height:1.35;}
+
+/* Booking */
+.booking-heading small{font-size:10px;line-height:1.3;}
+.booking-heading>span{font-size:10px;}
+.booking-card>p{font-size:14px;line-height:1.6;}
+.booking-card label{font-size:13px;line-height:1.35;}
+.booking-card select{font-size:14px;}
+.booking-note b{font-size:11px;line-height:1.35;}
+.booking-note small{font-size:10px;line-height:1.45;}
+.book-btn{font-size:14px;}
+
+/* Section headings */
+.section-top p,.process-top>p{font-size:15px;line-height:1.65;}
+.outline{font-size:13px;}
+
+/* Service cards */
+.service-head small{font-size:10px;}
+.service-card h3{font-size:18px;line-height:1.25;}
+.service-card p{font-size:13px;line-height:1.65;}
+.service-foot b{font-size:18px;}
+.service-foot a{font-size:12px;}
+
+/* Process */
+.process-top .eyebrow{font-size:11px;}
+.step b{font-size:14px;line-height:1.4;}
+.step span{font-size:12px;line-height:1.55;}
+
+/* FAQ */
+.faq-list summary{font-size:15px;line-height:1.5;}
+.faq-list summary b{font-size:22px;}
+.faq-list p{font-size:13px;line-height:1.7;}
+
+/* CTA / footer */
+.final-inner small{font-size:11px;}
+.final-inner p{font-size:15px;line-height:1.65;}
+.final-inner>a{font-size:13px;}
+.footer-brand p{font-size:12px;line-height:1.55;}
+.footer-grid h4{font-size:12px;}
+.footer-grid>div>a:not(.brand){font-size:12px;line-height:1.5;}
+.footer-bottom{font-size:11px;line-height:1.45;}
+
+/* Inner pages */
+.page-lead{font-size:18px;line-height:1.65;}
+.detail-number{font-size:11px;}
+.detail-card h2{font-size:25px;line-height:1.15;}
+.detail-card p{font-size:14px;line-height:1.65;}
+.detail-price{font-size:22px;}
+.detail-card .primary-btn{font-size:13px;}
+.info-band small{font-size:11px;}
+.info-band p{font-size:16px;line-height:1.7;}
+.journey-number{font-size:12px;}
+.journey-step h2{font-size:26px;line-height:1.2;}
+.journey-step p{font-size:15px;line-height:1.65;}
+.narrow-copy p{font-size:16px;line-height:1.75;}
+.about-copy p{font-size:16px;line-height:1.75;}
+.values-grid b{font-size:11px;}
+.values-grid h3{font-size:21px;line-height:1.25;}
+.values-grid p{font-size:13px;line-height:1.65;}
+.faq-page summary{font-size:17px;line-height:1.5;}
+.faq-page summary b{font-size:22px;}
+.faq-page p{font-size:14px;line-height:1.7;}
+.contact-card small{font-size:11px;}
+.contact-card h2{font-size:31px;line-height:1.2;}
+.contact-card p{font-size:15px;line-height:1.7;}
+.placeholder-contact{font-size:13px;}
+.legal-copy p{font-size:15px;line-height:1.75;}
+.legal-notice{font-size:13px;line-height:1.65;}
+
+/* Mobile: prioritize comfortable reading without oversized headings */
+@media(max-width:560px){
+  body{font-size:16px;}
+  .hero-copy>p{font-size:16px;line-height:1.65;}
+  .hero h1{font-size:44px;line-height:1.02;}
+  .booking-heading h2{font-size:29px;line-height:1.15;}
+  .booking-card>p{font-size:14px;}
+  .booking-card label{font-size:13px;}
+  .booking-card select{font-size:16px;}
+  .booking-note b{font-size:11px;}
+  .booking-note small{font-size:10px;}
+  .section-top h2,.process h2{font-size:37px;line-height:1.05;}
+  .section-top p,.process-top>p{font-size:15px;line-height:1.65;}
+  .service-card h3{font-size:19px;}
+  .service-card p{font-size:14px;line-height:1.65;}
+  .step b{font-size:14px;}
+  .step span{font-size:12px;line-height:1.55;}
+  .faq-inner h2{font-size:40px;}
+  .faq-list summary{font-size:16px;line-height:1.5;}
+  .faq-list p{font-size:14px;line-height:1.7;}
+  .final-inner h2{font-size:38px;line-height:1.05;}
+  .final-inner p{font-size:15px;line-height:1.65;}
+  .page-hero h1{font-size:43px;line-height:1.03;}
+  .page-lead{font-size:16px;line-height:1.65;}
+  .detail-card h2{font-size:25px;}
+  .detail-card p{font-size:14px;line-height:1.65;}
+  .info-band h2{font-size:37px;line-height:1.05;}
+  .info-band p{font-size:15px;line-height:1.7;}
+  .journey-step h2{font-size:23px;line-height:1.2;}
+  .journey-step p{font-size:15px;line-height:1.65;}
+  .narrow-copy h2,.about-grid h2{font-size:38px;line-height:1.05;}
+  .narrow-copy p,.about-copy p{font-size:16px;line-height:1.75;}
+  .values-grid h3{font-size:21px;}
+  .values-grid p{font-size:14px;line-height:1.65;}
+  .faq-page summary{font-size:17px;line-height:1.5;}
+  .faq-page p{font-size:14px;line-height:1.7;}
+  .contact-card h2{font-size:30px;}
+  .contact-card p{font-size:15px;line-height:1.7;}
+  .legal-copy p{font-size:15px;line-height:1.75;}
+  .legal-notice{font-size:13px;line-height:1.65;}
+}
+
+
+/* =========================================================
+   V8.3 — VALLEY SANS + ACCESSIBLE READING SCALE
+   Stronger contrast, larger body text, clearer mobile reading
+   ========================================================= */
+
+:root{
+  --font-brand:'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ink:#101820;
+  --muted:#4f5b66;
+  --line:rgba(16,24,32,.14);
+  --red:#0876d1;
+  --red-dark:#0758a3;
+  --green:#18a85f;
+  --green-dark:#107845;
+  --rose:#e8f5ff;
+  --rose-2:#f1faf5;
+}
+
+html{
+  font-size:16px;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+body,
+button,
+select,
+input,
+textarea{
+  font-family:var(--font-brand);
+}
+
+body{
+  color:var(--ink);
+  font-size:17px;
+  line-height:1.65;
+  font-weight:400;
+}
+
+/* Clearer navigation */
+nav a{font-size:15px;font-weight:600;color:#27313a;}
+.top-book{font-size:14px;font-weight:700;}
+.brand b{font-size:19px;font-weight:700;}
+.brand em{font-size:11px;color:#4f5b66;}
+
+/* Hero */
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;}
+.hero-copy>p{font-size:20px;line-height:1.7;color:#35414b;}
+.hero h1{font-weight:700;}
+.btn{font-size:15px;font-weight:700;}
+.trust b{font-size:14px;}
+.trust small{font-size:12px;color:#52606b;}
+
+/* Booking card */
+.booking-heading small{font-size:11px;}
+.booking-heading h2{font-size:31px;font-weight:700;}
+.booking-heading>span{font-size:11px;font-weight:700;}
+.booking-card>p{font-size:15px;line-height:1.65;color:#43505b;}
+.booking-card label{font-size:14px;font-weight:700;}
+.booking-card select{font-size:16px;color:#18222b;}
+.book-btn{font-size:15px;font-weight:700;}
+.booking-note b{font-size:12px;}
+.booking-note small{font-size:11px;color:#52606b;}
+
+/* Section headings and descriptions */
+.section-top h2,.process h2{font-weight:700;}
+.section-top p,.process-top>p{font-size:16px;line-height:1.7;color:#43505b;}
+.outline{font-size:14px;font-weight:700;}
+
+/* Services */
+.service-head small{font-size:11px;color:#52606b;}
+.service-card h3{font-size:19px;font-weight:700;line-height:1.25;}
+.service-card p{font-size:14px;line-height:1.7;color:#46535e;}
+.service-foot b{font-size:19px;}
+.service-foot a{font-size:13px;font-weight:700;}
+
+/* How it works */
+.step b{font-size:15px;font-weight:700;}
+.step span{font-size:13px;line-height:1.6;color:#52606b;}
+
+/* FAQ */
+.faq-list summary{font-size:16px;font-weight:650;line-height:1.6;}
+.faq-list p{font-size:15px;line-height:1.75;color:#43505b;}
+
+/* CTA */
+.final-inner p{font-size:17px;line-height:1.7;}
+.final-inner>a{font-size:14px;font-weight:700;}
+
+/* Footer */
+.footer-brand p{font-size:13px;}
+.footer-grid h4{font-size:13px;}
+.footer-grid>div>a:not(.brand){font-size:13px;line-height:1.65;color:#34414b;}
+.footer-bottom{font-size:12px;line-height:1.55;color:#52606b;}
+
+/* Inner pages */
+.page-hero h1{font-weight:700;}
+.page-lead{font-size:20px;line-height:1.7;color:#35414b;}
+.detail-card h2{font-weight:700;}
+.detail-card p{font-size:15px;line-height:1.75;color:#43505b;}
+.detail-card .primary-btn{font-size:14px;font-weight:700;}
+.info-band p{font-size:17px;line-height:1.75;}
+.journey-step h2{font-weight:700;}
+.journey-step p{font-size:16px;line-height:1.75;color:#43505b;}
+.narrow-copy p,.about-copy p{font-size:17px;line-height:1.8;color:#35414b;}
+.values-grid b{font-size:12px;}
+.values-grid h3{font-size:22px;font-weight:700;}
+.values-grid p{font-size:14px;line-height:1.75;color:#43505b;}
+.faq-page summary{font-size:18px;line-height:1.6;font-weight:650;}
+.faq-page p{font-size:15px;line-height:1.75;color:#43505b;}
+.contact-card small{font-size:12px;font-weight:700;}
+.contact-card h2{font-size:32px;font-weight:700;}
+.contact-card p{font-size:16px;line-height:1.75;color:#35414b;}
+.placeholder-contact{font-size:14px;}
+.legal-copy p{font-size:16px;line-height:1.8;color:#35414b;}
+.legal-notice{font-size:14px;line-height:1.7;}
+
+/* Strong, consistent button treatment */
+.primary-btn,.final-inner>a,.top-book,.btn.primary,.book-btn,.form-actions button,.result-actions a{
+  font-weight:700;
+  color:#fff;
+  background:linear-gradient(110deg,#0758a3,#0876d1 52%,#18a85f);
+}
+.primary-btn:hover,.final-inner>a:hover,.top-book:hover,.btn.primary:hover,.book-btn:hover{
+  background:linear-gradient(110deg,#064b8d,#0668b9 52%,#107845);
+}
+
+/* Mobile accessibility */
+@media(max-width:560px){
+  body{font-size:17px;line-height:1.68;}
+  nav a{font-size:16px;}
+  .hero-copy>p{font-size:18px;line-height:1.7;}
+  .hero h1{font-size:45px;line-height:1.04;}
+  .eyebrow{font-size:12px;}
+  .btn,.book-btn,.primary-btn,.top-book{font-size:15px;min-height:54px;}
+  .booking-heading h2{font-size:30px;}
+  .booking-card>p{font-size:15px;}
+  .booking-card label{font-size:14px;}
+  .booking-card select{font-size:16px;min-height:54px;}
+  .booking-note b{font-size:12px;}
+  .booking-note small{font-size:11px;}
+  .section-top h2,.process h2{font-size:39px;line-height:1.06;}
+  .section-top p,.process-top>p{font-size:16px;line-height:1.7;}
+  .service-card h3{font-size:20px;}
+  .service-card p{font-size:15px;line-height:1.7;}
+  .service-foot a{font-size:13px;}
+  .step b{font-size:15px;}
+  .step span{font-size:13px;}
+  .faq-inner h2{font-size:41px;}
+  .faq-list summary{font-size:17px;line-height:1.6;}
+  .faq-list p{font-size:15px;line-height:1.75;}
+  .final-inner h2{font-size:40px;}
+  .final-inner p{font-size:16px;}
+  .page-hero h1{font-size:45px;line-height:1.04;}
+  .page-lead{font-size:18px;line-height:1.7;}
+  .detail-card h2{font-size:27px;}
+  .detail-card p{font-size:15px;line-height:1.75;}
+  .info-band h2{font-size:39px;}
+  .info-band p{font-size:16px;line-height:1.75;}
+  .journey-step h2{font-size:25px;}
+  .journey-step p{font-size:16px;line-height:1.75;}
+  .narrow-copy h2,.about-grid h2{font-size:40px;}
+  .narrow-copy p,.about-copy p{font-size:17px;line-height:1.8;}
+  .values-grid h3{font-size:22px;}
+  .values-grid p{font-size:15px;line-height:1.75;}
+  .faq-page summary{font-size:18px;}
+  .faq-page p{font-size:15px;line-height:1.75;}
+  .contact-card h2{font-size:31px;}
+  .contact-card p{font-size:16px;line-height:1.75;}
+  .legal-copy p{font-size:16px;line-height:1.8;}
+}
+
+
+/* =========================================================
+   V8.4 — INTER + HIGH-CONTRAST BLACK TYPE + BOXY BUTTONS
+   Final visual refinement
+   ========================================================= */
+:root{
+  --font-brand:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-ui:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --ink:#080b10;
+  --text-dark:#11161d;
+  --text-mid:#202833;
+  --text-soft:#303a45;
+  --line:rgba(8,11,16,.14);
+}
+
+html{font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+body,button,select,input,textarea{
+  font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  color:var(--ink);
+}
+
+/* Black / dark-black typography — avoid washed-out grey */
+body{color:#080b10;}
+nav a{color:#11161d;}
+nav a:hover,nav a.active{color:#0758a3;}
+.brand em{color:#202833;}
+.hero-copy>p,
+.section-top p,
+.process-top>p,
+.page-lead,
+.detail-card p,
+.journey-step p,
+.narrow-copy p,
+.about-copy p,
+.values-grid p,
+.faq-page p,
+.contact-card p,
+.legal-copy p,
+.faq-list p,
+.booking-card>p,
+.service-card p{
+  color:#202833;
+}
+.trust small,
+.booking-note small,
+.service-head small,
+.step span,
+.footer-grid>div>a:not(.brand),
+.footer-bottom,
+.legal-notice{
+  color:#303a45;
+}
+.footer-brand p{color:#202833;}
+
+/* Strong headings */
+h1,h2,h3,h4,h5,h6,
+.booking-heading h2,
+.service-card h3,
+.detail-card h2,
+.journey-step h2,
+.about-grid h2,
+.contact-card h2,
+.narrow-copy h2,
+.values-grid h3,
+.result-card h2,
+.faq-list summary,
+.faq-page summary{
+  color:#080b10;
+}
+
+/* Inputs: high contrast text */
+select,
+.form-field input,
+.form-field select,
+.form-field textarea,
+.result-actions button{
+  color:#080b10;
+  background:#fff;
+}
+select::placeholder,
+.form-field input::placeholder,
+.form-field textarea::placeholder{color:#4a5561;opacity:1;}
+
+/* Rectangular, fluid buttons — matching the home-page language */
+.btn,
+.outline,
+.primary-btn,
+.top-book,
+.final-inner>a,
+.book-btn,
+.form-actions button,
+.result-actions a,
+.result-actions button{
+  border-radius:12px;
+  min-height:52px;
+  font-family:'Inter',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  font-weight:700;
+  letter-spacing:-.015em;
+}
+
+.primary-btn,
+.final-inner>a,
+.top-book,
+.btn.primary,
+.book-btn,
+.form-actions button,
+.result-actions a{
+  background:linear-gradient(110deg,#0758a3 0%,#0876d1 52%,#18a85f 100%);
+  color:#fff;
+  border:0;
+  box-shadow:0 10px 22px rgba(7,88,163,.16);
+}
+
+.primary-btn:hover,
+.final-inner>a:hover,
+.top-book:hover,
+.btn.primary:hover,
+.book-btn:hover,
+.form-actions button:hover,
+.result-actions a:hover{
+  background:linear-gradient(110deg,#064b8d 0%,#0668b9 52%,#107845 100%);
+}
+
+.btn.secondary,
+.outline,
+.result-actions button{
+  background:#fff;
+  color:#080b10;
+  border:1px solid rgba(8,11,16,.18);
+}
+
+.btn.secondary:hover,
+.outline:hover,
+.result-actions button:hover{
+  color:#0758a3;
+  border-color:rgba(7,88,163,.38);
+  background:#f7fbff;
+}
+
+/* Contact page: exactly the same boxy primary treatment as the main CTA */
+.contact-card .primary-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  width:max-content;
+  padding:13px 20px;
+  margin-top:20px;
+  border-radius:12px;
+  font-size:15px;
+  min-height:52px;
+}
+
+/* Keep the mobile version comfortable without becoming pill-shaped */
+@media(max-width:560px){
+  body{font-size:17px;line-height:1.68;}
+  .btn,.book-btn,.primary-btn,.top-book,.final-inner>a,
+  .form-actions button,.result-actions a,.result-actions button{
+    min-height:54px;
+    border-radius:12px;
+    font-size:15px;
+  }
+  .contact-card .primary-btn{
+    width:100%;
+    min-height:54px;
+    border-radius:12px;
+  }
+}
+
+
+/* =========================================================
+   V8.5 — UNIFIED DARK-TYPE / DARK-BACKGROUND CONTRAST
+   Homepage cleanup + accessible CTA typography
+   ========================================================= */
+
+/* Remove the visual footprint of the deleted homepage trust row. */
+.trust{display:none !important;}
+
+/* Dark / gradient sections must always use light text. */
+.final-cta,
+.info-band{
+  color:#fff;
+}
+
+.final-cta .final-inner,
+.final-cta .final-inner h2,
+.final-cta .final-inner small,
+.final-cta .final-inner p,
+.info-band .info-band-inner,
+.info-band h2,
+.info-band small,
+.info-band p{
+  color:#fff;
+}
+
+.final-cta .final-inner small,
+.info-band small{
+  color:rgba(255,255,255,.86);
+  opacity:1;
+}
+
+.final-cta .final-inner p,
+.info-band p{
+  color:rgba(255,255,255,.88);
+}
+
+.final-cta .final-inner h2,
+.info-band h2{
+  text-shadow:0 1px 1px rgba(0,0,0,.08);
+}
+
+.final-cta .final-inner h2 strong,
+.info-band h2 strong{
+  color:#d9f8e8;
+  background:none;
+  -webkit-text-fill-color:initial;
+}
+
+/* White CTA button on a dark background remains intentionally white. */
+.final-inner>a{
+  background:#fff;
+  color:#0758a3;
+  border:0;
+}
+
+.final-inner>a:hover{
+  background:#f4fbf8;
+  color:#064b8d;
+}
+
+/* Homepage booking card — varied label so it does not repeat the main CTA. */
+.booking-heading h2{
+  color:#080b10;
+}
+
+/* Stronger readable text throughout shared components. */
+.brand em{color:#202833;}
+nav a{color:#11161d;}
+.footer-brand p,
+.footer-grid>div>a:not(.brand),
+.footer-bottom{color:#303a45;}
+
+/* Keep muted text dark enough without returning to washed-out grey. */
+.section-top p,
+.process-top>p,
+.service-card p,
+.step span,
+.faq-list p,
+.page-lead,
+.detail-card p,
+.journey-step p,
+.narrow-copy p,
+.about-copy p,
+.values-grid p,
+.faq-page p,
+.contact-card p,
+.legal-copy p{
+  color:#202833;
+}
+
+/* Mobile: preserve comfortable reading sizes after removing the trust row. */
+@media(max-width:560px){
+  .hero-grid{gap:34px;}
+  .hero-copy>p{max-width:620px;}
+  .actions{margin-bottom:0;}
+  .final-cta .final-inner h2{font-size:40px;line-height:1.05;}
+  .final-cta .final-inner p{font-size:16px;line-height:1.65;}
+  .info-band h2{font-size:39px;line-height:1.05;}
+  .info-band p{font-size:16px;line-height:1.75;}
 }
